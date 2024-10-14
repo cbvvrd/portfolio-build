@@ -4,10 +4,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
-}
-
-body {
-
+    padding: 10px;
 }
 
 .introduction {
@@ -42,4 +39,21 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+footer {
+    background-color: mediumseagreen;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials {
+    font-size: 3rem;
+}
+
+.socials a{
+    margin-left: 5px;
 }
