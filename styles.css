@@ -1,3 +1,17 @@
-body {
-    
+header {
+    background-color: mediumseagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.introduction {
+    display: flex;
+
+}
+
+
+
+.pic-of-me {
+    max-width: 40%;
 }
