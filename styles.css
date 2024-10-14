@@ -3,14 +3,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .introduction {
     display: flex;
-
+    justify-content: space-evenly;
+    align-items: center;
 }
-
-
 
 .pic-of-me {
     max-width: 40%;
