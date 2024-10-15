@@ -25,28 +25,33 @@
 
         <h1>Charlie Bird - Developer</h1>
         <nav class="links">
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
 
     </header>
 
     <main>
 
-    <div class="introduction">
-        <img class="pic-of-me" src="me.jpg" alt="Charlie Bird in a cable car" />
-        <p>Hello, I'm Charlie and I'm an aspiring developer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolores molestias inventore ex deleniti dignissimos eum at</p>
+    <div class="introduction-bg">
+        <div class="introduction">
+            <img class="pic-of-me" src="me.jpg" alt="Charlie Bird in a cable car" />
+            <div class="intro-text">
+                <span id="large-intro-text">Hi!</span>
+                <p> I'm Charlie and I'm an aspiring developer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolores molestias inventore ex deleniti dignissimos eum at.</p>
+            </div>
+        </div>
     </div>
 
 
-    <div class="about-me">
+    <div class="about-me" id="about">
         <h2>About me:</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
     </div>
 
 
-    <div class="portfolio-grid">
+    <div class="portfolio-grid" id="portfolio">
 
         <div class="project-1">
             <img src="portfolio-placeholder.jpeg" alt="a webpage I have designed">
@@ -96,7 +101,7 @@
 
     </main>
 
-    <footer>
+    <footer id="contact">
 
         <div class="socials">
             <a href=#><i class="fa-regular fa-envelope"></i></a>
