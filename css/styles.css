@@ -142,8 +142,10 @@ h1 {
 .portfolio-2-large,
 .portfolio-3-large {
     position: fixed;
-    width: 75%;
-    top: 25%;
+    margin: auto;
+    max-width: 75%;
+    top: 15%;
+    left: 12.5%;
     background: #cecece;
     border: solid black 2px;
     display: none;
