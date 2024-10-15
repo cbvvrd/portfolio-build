@@ -110,17 +110,32 @@ h1 {
 }
 
 .portfolio-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
+    display: flex;
+    gap: 50px;
+    max-width: 80%;
+    margin: auto;
 }
 
 .portfolio-info {
-    background-color: darkslategrey;
+    /* background-color: darkslategrey; */
     color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.project-1,
+.project-2,
+.project-3 {
+    background-color: #cecece;
+    padding: 10px 10px;
+}
+
+.project-1 img,
+.project-2 img,
+.project-3 img{
+    max-width: 100%;
+    max-height: auto;
 }
 
 .portfolio-1-large,
@@ -129,7 +144,7 @@ h1 {
     position: fixed;
     width: 75%;
     top: 25%;
-    background: #ffffff;
+    background: #cecece;
     border: solid black 2px;
     display: none;
 }
@@ -139,6 +154,8 @@ h1 {
 .portfolio-3-large.visible {
     display: block;
 }
+
+
 
 footer {
     background-color: mediumseagreen;
