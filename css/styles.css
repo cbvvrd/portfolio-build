@@ -1,0 +1,158 @@
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #8b8b8b;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #000000;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #000000;
+    font-size: 1.35rem;
+    transition: 100ms;
+}
+
+header a:hover {
+    border-bottom: 5px solid #000000;
+    font-weight: 800;
+}
+
+body {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.introduction-bg {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(60,192,177,1) 27%, rgba(116,217,100,1) 86%);
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 15px;
+    max-width: 75%;
+    height: 90vh;
+}
+
+.introduction img {
+    border: 2px solid #000000;
+    border-radius: 4px;
+}
+
+.intro-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+
+}
+
+#large-intro-text {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+
+.introduction p {
+    background-color: #000000;
+    color: #ffffff;
+    /* border: solid 2px #000000; */
+    font-size: 1.2rem;
+    text-align: center;
+    /* border-radius: 5px; */
+    padding: 8px 8px;
+}
+
+.pic-of-me {
+    max-width: 40%;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin: auto;
+    max-width: 70%;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.portfolio-info {
+    background-color: darkslategrey;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.portfolio-1-large,
+.portfolio-2-large,
+.portfolio-3-large {
+    position: fixed;
+    width: 75%;
+    top: 25%;
+    background: #ffffff;
+    border: solid black 2px;
+    display: none;
+}
+
+.portfolio-1-large.visible,
+.portfolio-2-large.visible,
+.portfolio-3-large.visible {
+    display: block;
+}
+
+footer {
+    background-color: mediumseagreen;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials {
+    font-size: 3rem;
+}
+
+.socials a{
+    margin-left: 5px;
+}
