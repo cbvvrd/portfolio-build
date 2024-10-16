@@ -237,18 +237,47 @@ h1 {
     max-width: 75%;
     top: 15%;
     left: 12.5%;
-    background: #cecece;
+    background: rgb(182, 196, 194);
     border: solid black 2px;
     display: none;
+    text-align: center;
 }
 
 .portfolio-1-large.visible,
 .portfolio-2-large.visible,
 .portfolio-3-large.visible {
     display: block;
+
 }
 
+.modal-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 10px;
+}
 
+.modal-top img {
+    max-width: 95%;
+    height: auto;
+    align-self: center;
+}
+
+.project-info {
+    padding: 5px 10px;
+    margin: auto;
+    width: 75%;
+    margin-bottom: 5px;
+}
+
+.modal-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 10px;
+}
 
 footer {
     background-color: mediumseagreen;

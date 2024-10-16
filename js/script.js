@@ -26,11 +26,15 @@ fetch('portfolio.json')
 
             portfolioModals.innerHTML += `
                 <div class="${project.modal_box}">
-                    <img src="${project.img}" alt="larger image of the webpage">
-                    <button id="${project.close_button}"><i class="fa-solid fa-xmark"></i></button>
-                    <p>${project.info}</p>
-                    <a href="${project.site_link}" target="_blank">Live site</a>
-                    <a href="${project.github_link}" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <div class="modal-top">
+                        <button id="${project.close_button}"><i class="fa-solid fa-xmark"></i></button>
+                        <img src="${project.img}" alt="larger image of the webpage">
+                    </div>
+                    <p class="project-info">${project.info}</p>
+                    <div class="modal-links">
+                        <a href="${project.site_link}" target="_blank">Live site</a>
+                        <a href="${project.github_link}" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
                 </div>      
             `
         })
