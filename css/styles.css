@@ -170,6 +170,8 @@ h1 {
     display: flex;
     gap: 50px;
     margin: auto;
+    /* margin-top: 15px; */
+    margin-bottom: 60px;
 }
 
 .portfolio-info {
