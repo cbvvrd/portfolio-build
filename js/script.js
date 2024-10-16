@@ -14,7 +14,7 @@ fetch('portfolio.json')
                 <div class="${project.id}">
                     <img src="${project.img}" alt="${project.alt_text}">
                     <div class="portfolio-info">
-                        <button id="${project.button}">Info</button>
+                        <button id="${project.open_button}">Info</button>
                         <a href="${project.site_link}" target="_blank">Live site</a>
                         <a href="${project.github_link}" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </div>
@@ -26,6 +26,7 @@ fetch('portfolio.json')
             portfolioModals.innerHTML += `
                 <div class="${project.modal_box}">
                     <img src="${project.img}" alt="larger image of the webpage">
+                    <button id="${project.close_button}"><i class="fa-solid fa-xmark"></i></button>
                     <p>${project.info}</p>
                     <a href="${project.site_link}" target="_blank">Live site</a>
                     <a href="${project.github_link}" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -33,7 +34,7 @@ fetch('portfolio.json')
             `
         })
         
-        // adding onClick function to "more info" buttons - open modals //
+        // onClick function to "more info" buttons - open modals //
         
         const portfolio1Large = document.querySelector(".portfolio-1-large");
         const portfolio2Large = document.querySelector(".portfolio-2-large");
@@ -48,5 +49,17 @@ fetch('portfolio.json')
         document.querySelector("#more-info-3").addEventListener('click', () => {
             portfolio3Large.classList.toggle('visible');
         })
+
+        // onClick funciton to close modals //
+        document.querySelector("#close-window-1").addEventListener('click', () => {
+            portfolio1Large.classList.remove('visible');
+        })
+        document.querySelector("#close-window-2").addEventListener('click', () => {
+            portfolio2Large.classList.remove('visible');
+        })
+        document.querySelector("#close-window-3").addEventListener('click', () => {
+            portfolio3Large.classList.remove('visible');
+        })
+
 
     })
