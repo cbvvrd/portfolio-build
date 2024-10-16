@@ -51,7 +51,7 @@ h1 {
 
 .introduction-bg {
     background: rgb(34,193,195);
-   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(60,192,177,1) 27%, rgba(116,217,100,1) 86%);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(60,192,177,1) 27%, rgba(116,217,100,1) 86%);
 }
 
 .introduction {
@@ -114,10 +114,10 @@ h1 {
 
 .about-me h2 {
     font-size: 1.75rem;
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(60,192,177,1) 27%, rgba(116,217,100,1) 86%);
-    /* background: #000000;
-    color: #ffffff; */
+    /* background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(60,192,177,1) 27%, rgba(116,217,100,1) 86%); */
+    background: #000000;
+    color: #ffffff;
     padding: 8px;
     text-align: right;
 }
@@ -152,14 +152,20 @@ h1 {
 
 .portfolio h2 {
     font-size: 1.75rem;
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(60,192,177,1) 27%, rgba(116,217,100,1) 86%);
-    /* background: #000000;
-    color: #ffffff; */
+    /* background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(60,192,177,1) 27%, rgba(116,217,100,1) 86%); */
+    background: #000000;
+    color: #ffffff;
     padding: 8px;
     margin-top: 10px;
     margin-right: auto;
     margin-bottom: 0;
+}
+
+.portfolio h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .portfolio p {
@@ -178,15 +184,18 @@ h1 {
     /* background-color: darkslategrey; */
     color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 .project-1,
 .project-2,
 .project-3 {
-    background-color: #cecece;
-    padding: 10px 10px;
+    /* background-color: #000000; */
+    background: rgb(222, 235, 233);
+    /* background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(60,192,177,1) 27%, rgba(116,217,100,1) 86%); */
+    padding: 20px 25px;
+    border: solid 1.5px;
 }
 
 .project-1 img,
@@ -194,6 +203,30 @@ h1 {
 .project-3 img{
     max-width: 100%;
     max-height: auto;
+    transition: 300ms;
+    padding-bottom: 5px;
+}
+
+.project-1 img:hover,
+.project-2 img:hover,
+.project-3 img:hover {
+    transform: scale(1.03, 1.03);
+}
+
+.portfolio a {
+    color: #000000;
+    font-size: 1.25rem;
+    text-decoration: none;
+    text-decoration: underline;
+    transition: 100ms;
+}
+
+.portfolio a i {
+    font-size: 2rem;
+}
+
+.portfolio a:hover{
+    color: rgb(177, 1, 177);
 }
 
 .portfolio-1-large,

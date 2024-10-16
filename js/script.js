@@ -12,10 +12,11 @@ fetch('portfolio.json')
             
             portfolioGallery.innerHTML += `
                 <div class="${project.id}">
+                    <h3>${project.name}</h3>
                     <img src="${project.img}" alt="${project.alt_text}">
                     <div class="portfolio-info">
                         <button id="${project.open_button}">Info</button>
-                        <a href="${project.site_link}" target="_blank">Live site</a>
+                        <a href="${project.site_link}" class="site-link" target="_blank">Live site</a>
                         <a href="${project.github_link}" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div> 
