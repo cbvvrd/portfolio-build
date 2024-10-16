@@ -105,8 +105,21 @@ h1 {
     align-items: center;
     justify-content: space-evenly;
     gap: 40px;
-    margin: auto;
+    margin: 60px auto;
     max-width: 70%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about-me h2 {
+    font-size: 1.75rem;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(60,192,177,1) 27%, rgba(116,217,100,1) 86%);
+    padding: 8px;
+}
+
+.about-me p {
+    font-size: 1.2rem;
 }
 
 .portfolio-grid {

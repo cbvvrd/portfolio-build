@@ -1,25 +1,31 @@
 {
     "projects": [
         {   
+            "id": "project-1",
             "name": "Project 1",
-            "img": "images/portfolio-placeholder.jpeg",
+            "img": "images/forest.jpg",
+            "button": "more-info-1",
             "info": "Project 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rerum facilis explicabo similique cupiditate provident sed facere aliquid? Exercitationem est voluptate atque impedit iure cupiditate quos repudiandae sint possimus deleniti.",
-            "site-link": "https://www.bbc.co.uk/sport",
-            "github-link": "https://github.com/cbvvrd"
+            "site_link": "https://www.bbc.co.uk/",
+            "github_link": "https://github.com/cbvvrd"
         } ,
         {   
+            "id": "project-2",
             "name": "Project 2",
-            "img": "images/portfolio-placeholder.jpeg",
+            "img": "images/mountain.jpg",
+            "button": "more-info-2",
             "info": "Project 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rerum facilis explicabo similique cupiditate provident sed facere aliquid? Exercitationem est voluptate atque impedit iure cupiditate quos repudiandae sint possimus deleniti.",
-            "site-link": "https://www.bbc.co.uk/sport",
-            "github-link": "https://github.com/cbvvrd"
+            "site_link": "https://www.google.com/",
+            "github_link": "https://github.com/cbvvrd"
         } ,
         {   
+            "id": "project-3",
             "name": "Project 3",
-            "img": "images/portfolio-placeholder.jpeg",
+            "img": "images/shrine.jpg",
+            "button": "more-info-3",
             "info": "Project 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rerum facilis explicabo similique cupiditate provident sed facere aliquid? Exercitationem est voluptate atque impedit iure cupiditate quos repudiandae sint possimus deleniti.",
-            "site-link": "https://www.bbc.co.uk/sport",
-            "github-link": "https://github.com/cbvvrd"
+            "site_link": "https://www.amazon.co.uk/",
+            "github_link": "https://github.com/cbvvrd"
         }
     ]
 }
