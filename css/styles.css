@@ -51,7 +51,7 @@ h1 {
 
 .introduction-bg {
     background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(60,192,177,1) 27%, rgba(116,217,100,1) 86%);
+   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(60,192,177,1) 27%, rgba(116,217,100,1) 86%);
 }
 
 .introduction {
@@ -116,17 +116,59 @@ h1 {
     font-size: 1.75rem;
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(60,192,177,1) 27%, rgba(116,217,100,1) 86%);
+    /* background: #000000;
+    color: #ffffff; */
     padding: 8px;
+    text-align: right;
 }
 
 .about-me p {
     font-size: 1.2rem;
 }
 
+#technologies {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+}
+
+#technologies p{
+    margin: 0;
+    padding-left: 15px;
+    text-decoration: underline;
+}
+
+#technologies ul{
+    margin: 5px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: auto;
+}
+
+.portfolio h2 {
+    font-size: 1.75rem;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(60,192,177,1) 27%, rgba(116,217,100,1) 86%);
+    /* background: #000000;
+    color: #ffffff; */
+    padding: 8px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.portfolio p {
+    font-size: 1.2rem;
+}
+
 .portfolio-grid {
     display: flex;
     gap: 50px;
-    max-width: 80%;
     margin: auto;
 }
 
