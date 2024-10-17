@@ -80,8 +80,12 @@ h1 {
 .introduction img {
     border: 2px solid #000000;
     border-radius: 4px;
-    max-width: 40%;
+    max-width: 60%;
     margin-right: 30px;
+}
+
+.pic-of-me-closeup {
+    display: none;
 }
 
 .intro-text {
@@ -396,16 +400,49 @@ footer a {
     body{
         header {
             flex-direction: column
-        };
+        }
         header h1 {
             text-align: center;
             font-size: 2rem;
         }
         .menu-button {
             display: block;
-        };
+        }
         .links {
             display: none;
-        };
+        }
+        .introduction {
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        .pic-of-me {
+            display: none;
+        }
+        .pic-of-me-closeup {
+            display: block;
+            margin: 0;
+        }
+        .intro-text {
+            flex-direction: column;
+            gap: 0;
+            align-items: center;
+        }
+        .introduction p {
+            font-size: 1.5rem;
+        }
+        .introduction-bg i {
+            font-size: 3rem;
+        }
+
+
+
+
+
+        .portfolio-grid {
+            flex-direction: column;
+        }
+
+
+
     };
 }
