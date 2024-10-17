@@ -58,10 +58,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
     margin: auto;
     margin-bottom: 10px;
-    padding: 15px;
+    /* padding: 15px; */
     max-width: 75%;
     height: 90vh;
 }
@@ -69,6 +69,8 @@ h1 {
 .introduction img {
     border: 2px solid #000000;
     border-radius: 4px;
+    max-width: 40%;
+    margin-right: 30px;
 }
 
 .intro-text {
@@ -96,9 +98,17 @@ h1 {
     padding: 8px 8px;
 }
 
-.pic-of-me {
-    max-width: 40%;
+.introduction-bg i {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000000;
+    transition-duration: 100ms;
 }
+
+.introduction-bg i:hover {
+    color: #ffffff;
+}
+
 
 .about-me {
     display: flex;
@@ -110,6 +120,7 @@ h1 {
     padding-top: 40px;
     padding-bottom: 40px;
     scroll-margin-top: 100px;
+    border-bottom: solid 1px;
 }
 
 .about-me h2 {
@@ -150,6 +161,7 @@ h1 {
     margin: auto;
     margin-bottom: 60px;
     scroll-margin-top: 100px;
+    border-bottom: solid 1px;
 }
 
 .portfolio h2 {
@@ -353,7 +365,15 @@ h1 {
 }
 
 footer {
-    background: rgb(34,193,195);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: rgba(60,192,177,1);
     margin-top: 10px;
     padding: 10px;
+    font-size: 1.2rem;
+}
+
+footer a {
+    color: #000000;
 }
