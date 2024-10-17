@@ -268,11 +268,13 @@ h1 {
     margin: auto;
     max-width: 75%;
     top: 15%;
+    /* bottom: 5%; */
     left: 12.5%;
     background: rgb(182, 196, 194);
     border: solid black 2px;
     display: none;
     text-align: center;
+    box-shadow: 1px 1px 7px;
 }
 
 .portfolio-1-large.visible,
