@@ -179,6 +179,7 @@ h1 {
     border-bottom: solid 1px;
 }
 
+
 .portfolio h2 {
     font-size: 1.75rem;
     /* background: rgb(34,193,195);
@@ -319,7 +320,7 @@ h1 {
     margin: 60px auto;
     max-width: 70%;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     scroll-margin-top: 100px;
 }
 
@@ -428,20 +429,44 @@ footer a {
             align-items: center;
         }
         .introduction p {
-            font-size: 1.5rem;
+            font-size: 1.35rem;
         }
         .introduction-bg i {
             font-size: 3rem;
         }
-
-
-
-
-
+        .about-me {
+            flex-direction: column;
+            text-align: center;
+        }    
         .portfolio-grid {
             flex-direction: column;
         }
-
+        .portfolio h2 {
+            margin: auto;
+        }
+        #portfolio-pretext {
+            text-align: center;
+        }
+        .contact-text {
+            flex-direction: column;
+            text-align: center;
+        }
+        .contact-text h2{
+            margin: auto;
+        }
+        .socials {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 25px;
+            font-size: 1.5rem;
+        }
+        #large-contact-text {
+            margin: auto;
+            max-width: 50%;
+            font-size: 2rem;
+            padding-top: 10px;
+        }
 
 
     };
