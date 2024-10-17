@@ -1,3 +1,13 @@
+const menuButton = document.querySelector(".menu-button");
+const menuLinks = document.querySelector("header .links");
+
+
+menuButton.addEventListener("click", () => {
+    menuLinks.classList.toggle("visible")
+})
+
+
+
 
 // Getting portfolio data from JSON file //
 fetch('portfolio.json')
