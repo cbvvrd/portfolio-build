@@ -8,6 +8,7 @@ header {
     width: 100%;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 
 header h1 {
@@ -219,12 +220,14 @@ h1 {
     max-height: auto;
     transition: 300ms;
     padding-bottom: 5px;
+    z-index: 1;
 }
 
 .project-1 img:hover,
 .project-2 img:hover,
 .project-3 img:hover {
     transform: scale(1.03, 1.03);
+    
 }
 
 .portfolio a {
