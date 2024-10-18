@@ -18,6 +18,9 @@ header h1 {
 
 .menu-button {
     display: none;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 3px;
 }
 
 .links {
@@ -208,6 +211,18 @@ h1 {
     margin: auto;
     /* margin-top: 15px; */
     margin-bottom: 60px;
+}
+
+.portfolio button {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    transition-duration: 200ms;
+}
+
+.portfolio button:hover {
+    background-color: #c5c3c3;
 }
 
 .portfolio-info {
